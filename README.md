@@ -1,7 +1,7 @@
 # Simon Game
 
 ## Description
-The Simon Game is a classic memory game where players must repeat a sequence of colors and sounds that the game generates. This project was created using HTML, CSS, JavaScript, and jQuery.
+The Simon Game is a classic memory game where players must repeat a sequence of colors that the game generates. This project was created using HTML, CSS, JavaScript, and jQuery.
 
 ## Technologies Used
 - HTML
@@ -20,4 +20,4 @@ The Simon Game is a classic memory game where players must repeat a sequence of 
 3. As you progress, the sequence becomes longer and more challenging.
 
 ## Getting Started
-To play the game, simply open the url [Simon Game](www.google.com) file in a web browser.
+To play the game, simply open the url [Simon Game](https://samuelcardenasg23.github.io/simon-game/) file in a web browser.
