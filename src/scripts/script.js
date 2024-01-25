@@ -16,7 +16,6 @@ $(document).keydown(function() {
 $('.btn').click(function() {
     const userChosenColor = $(this).attr("id");
     userClickedPattern.push(userChosenColor);
-    console.log(userClickedPattern);
 
     playSound(userChosenColor);
     animatedPress(userChosenColor);
@@ -36,7 +35,6 @@ function nextSequence() {
     const randomChosenColor = buttonColors[randomNumber];
 
     gamePattern.push(randomChosenColor);
-    console.log(gamePattern);
 
     const selectedButton = $(`#${randomChosenColor}`);
 
@@ -56,17 +54,6 @@ function animatedPress(currentColor) {
     setTimeout(function() {
         $(`#${currentColor}`).removeClass('pressed');
     }, 100);
-}
-
-function updateTitle() {
-    console.log("Updating title...");
-    if (started) {
-        console.log(`Level ${level}`);
-        
-    } else {
-        console.log('Press A Key to Start');
-        
-    }
 }
 
 function checkAnswer(currentLevel) {
